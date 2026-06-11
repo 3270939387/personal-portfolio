@@ -116,35 +116,34 @@ const placeholder = {
 };
 
 const travelChinaImages = [
-  "/assets/travel/CHINA/_cgi-bin_mmwebwx-bin_webwxgetmsgimg__&MsgID=2984130503709198778&skey=@crypt_a0e60a58_cdb314ecba227e08131a601306432461&mmweb_appid=wx_webfilehelper.jpeg",
-  "/assets/travel/CHINA/_cgi-bin_mmwebwx-bin_webwxgetmsgimg__&MsgID=4683594627410464361&skey=@crypt_a0e60a58_cdb314ecba227e08131a601306432461&mmweb_appid=wx_webfilehelper.jpeg",
-  "/assets/travel/CHINA/_cgi-bin_mmwebwx-bin_webwxgetmsgimg__&MsgID=4960747133999011397&skey=@crypt_a0e60a58_cdb314ecba227e08131a601306432461&mmweb_appid=wx_webfilehelper.jpeg",
-  "/assets/travel/CHINA/_cgi-bin_mmwebwx-bin_webwxgetmsgimg__&MsgID=5346135380019075809&skey=@crypt_a0e60a58_cdb314ecba227e08131a601306432461&mmweb_appid=wx_webfilehelper.jpeg",
-  "/assets/travel/CHINA/_cgi-bin_mmwebwx-bin_webwxgetmsgimg__&MsgID=6601364494489851948&skey=@crypt_a0e60a58_cdb314ecba227e08131a601306432461&mmweb_appid=wx_webfilehelper.jpeg",
-  "/assets/travel/CHINA/_cgi-bin_mmwebwx-bin_webwxgetmsgimg__&MsgID=81631362092342007&skey=@crypt_a0e60a58_cdb314ecba227e08131a601306432461&mmweb_appid=wx_webfilehelper.jpeg",
+  "/assets/travel/CHINA/china-01.jpeg",
+  "/assets/travel/CHINA/china-02.jpeg",
+  "/assets/travel/CHINA/china-03.jpeg",
+  "/assets/travel/CHINA/china-04.jpeg",
+  "/assets/travel/CHINA/china-05.jpeg",
 ];
 
 const travelHongKongImages = [
-  "/assets/travel/CHINA/hongkong/_cgi-bin_mmwebwx-bin_webwxgetmsgimg__&MsgID=1188845793864041855&skey=@crypt_a0e60a58_cdb314ecba227e08131a601306432461&mmweb_appid=wx_webfilehelper.jpeg",
-  "/assets/travel/CHINA/hongkong/_cgi-bin_mmwebwx-bin_webwxgetmsgimg__&MsgID=1228829154072539913&skey=@crypt_a0e60a58_cdb314ecba227e08131a601306432461&mmweb_appid=wx_webfilehelper.jpeg",
-  "/assets/travel/CHINA/hongkong/_cgi-bin_mmwebwx-bin_webwxgetmsgimg__&MsgID=4960747133999011397&skey=@crypt_a0e60a58_cdb314ecba227e08131a601306432461&mmweb_appid=wx_webfilehelper.jpeg",
-  "/assets/travel/CHINA/hongkong/_cgi-bin_mmwebwx-bin_webwxgetmsgimg__&MsgID=7883213475793830217&skey=@crypt_a0e60a58_cdb314ecba227e08131a601306432461&mmweb_appid=wx_webfilehelper.jpeg",
-  "/assets/travel/CHINA/hongkong/_cgi-bin_mmwebwx-bin_webwxgetmsgimg__&MsgID=8771159869013707990&skey=@crypt_a0e60a58_cdb314ecba227e08131a601306432461&mmweb_appid=wx_webfilehelper.jpeg",
+  "/assets/travel/CHINA/hongkong/hongkong-01.jpeg",
+  "/assets/travel/CHINA/hongkong/hongkong-02.jpeg",
+  "/assets/travel/CHINA/hongkong/hongkong-03.jpeg",
+  "/assets/travel/CHINA/hongkong/hongkong-04.jpeg",
+  "/assets/travel/CHINA/hongkong/hongkong-05.jpeg",
 ];
 
 const travelMacauImages = [
-  "/assets/travel/CHINA/macau/_cgi-bin_mmwebwx-bin_webwxgetmsgimg__&MsgID=7824040169697586354&skey=@crypt_a0e60a58_cdb314ecba227e08131a601306432461&mmweb_appid=wx_webfilehelper.jpeg",
-  "/assets/travel/CHINA/macau/_cgi-bin_mmwebwx-bin_webwxgetmsgimg__&MsgID=8120015380881509945&skey=@crypt_a0e60a58_cdb314ecba227e08131a601306432461&mmweb_appid=wx_webfilehelper.jpeg",
+  "/assets/travel/CHINA/macau/macau-01.jpeg",
+  "/assets/travel/CHINA/macau/macau-02.jpeg",
 ];
 
 const travelKoreaImages = [
-  "/assets/travel/korea/_cgi-bin_mmwebwx-bin_webwxgetmsgimg__&MsgID=5080497303248508139&skey=@crypt_a0e60a58_cdb314ecba227e08131a601306432461&mmweb_appid=wx_webfilehelper.jpeg",
-  "/assets/travel/korea/_cgi-bin_mmwebwx-bin_webwxgetmsgimg__&MsgID=8913034263389225896&skey=@crypt_a0e60a58_cdb314ecba227e08131a601306432461&mmweb_appid=wx_webfilehelper.jpeg",
-  "/assets/travel/korea/_cgi-bin_mmwebwx-bin_webwxgetmsgimg__&MsgID=948647088891274317&skey=@crypt_a0e60a58_cdb314ecba227e08131a601306432461&mmweb_appid=wx_webfilehelper.jpeg",
+  "/assets/travel/korea/korea-01.jpeg",
+  "/assets/travel/korea/korea-02.jpeg",
+  "/assets/travel/korea/korea-03.jpeg",
 ];
 
 const travelMalaysiaImages = [
-  "/assets/travel/malaysia/_cgi-bin_mmwebwx-bin_webwxgetmsgimg__&MsgID=5608261984578444809&skey=@crypt_a0e60a58_cdb314ecba227e08131a601306432461&mmweb_appid=wx_webfilehelper.jpeg",
+  "/assets/travel/malaysia/malaysia-01.jpeg",
 ];
 
 export const profile: Profile = {
