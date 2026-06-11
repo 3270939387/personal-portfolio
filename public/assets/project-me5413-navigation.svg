@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 506" role="img" aria-label="Autonomous navigation project placeholder">
+  <rect width="900" height="506" fill="#f8fafc"/>
+  <path d="M84 386h732" stroke="#dbeeff" stroke-linecap="round" stroke-width="44"/>
+  <path d="M142 338h616" stroke="#173b63" stroke-linecap="round" stroke-width="18"/>
+  <path d="M158 294h210v-92h176v-72h198" fill="none" stroke="#2562a5" stroke-linecap="round" stroke-linejoin="round" stroke-width="22"/>
+  <circle cx="158" cy="294" r="28" fill="#cf6f95"/>
+  <circle cx="368" cy="202" r="24" fill="#cf6f95"/>
+  <circle cx="544" cy="130" r="24" fill="#cf6f95"/>
+  <circle cx="742" cy="130" r="28" fill="#cf6f95"/>
+  <rect x="348" y="316" width="186" height="72" rx="22" fill="#2562a5"/>
+  <circle cx="392" cy="392" r="24" fill="#173b63"/>
+  <circle cx="492" cy="392" r="24" fill="#173b63"/>
+  <rect x="384" y="282" width="116" height="50" rx="14" fill="#cf6f95"/>
+  <path d="M620 260c42-42 110-42 152 0M646 286c28-26 72-26 100 0M674 312c14-12 32-12 46 0" fill="none" stroke="#cf6f95" stroke-linecap="round" stroke-width="14"/>
+  <text x="450" y="88" fill="#173b63" font-family="Arial, sans-serif" font-size="34" font-weight="700" text-anchor="middle">SLAM + Navigation</text>
+</svg>

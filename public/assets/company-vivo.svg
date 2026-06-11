@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img" aria-label="Vivo Robotics Lab logo">
+  <rect width="240" height="240" rx="28" fill="#ffffff"/>
+  <rect x="18" y="18" width="204" height="204" rx="24" fill="#f8fbff" stroke="#dbeeff" stroke-width="4"/>
+  <text x="120" y="116" fill="#345cff" font-family="Arial, Helvetica, sans-serif" font-size="58" font-style="italic" font-weight="700" text-anchor="middle">vivo</text>
+  <path d="M62 148h116" stroke="#173b63" stroke-linecap="round" stroke-width="4"/>
+  <text x="120" y="176" fill="#173b63" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" letter-spacing="2" text-anchor="middle">ROBOTICS</text>
+</svg>

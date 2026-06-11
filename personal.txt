@@ -1,0 +1,74 @@
+# Personal Portfolio Website Information<
+## 1. Basic Info  Name: CHANG XIAOYIN 常潇尹
+English Name: friday Location: shanghai
+Email: e1520236@u.nus.edu
+GitHub: https://github.com/3270939387 
+Bachelor: Shenzhen university robotics 
+Graduate: NUS robotics 
+Exchange: hong kong polytechnic university 
+Hobby: dancing, singing, basketball, drum, piano, guitar…  
+
+## 2. Short Introduction  
+
+### English Hi, I'm ... 
+ 
+ ### 中文 你好，我是...  
+ 
+ ## 3. Keywords / Tags  
+ English: - Robotics - Embodied AI - Reinforcement Learning - Imitation Learning - Robot Manipulation  
+ 中文: - 机器人 - 具身智能 - 强化学习 - 模仿学习 - 机械臂操作  ## 4. Projects  
+ 
+ ### Project 1  
+ Title EN: 
+ Title ZH: 基于PPO的视觉抓取策略训练以及真机部署 
+ Image Path: 
+ Short Description EN: 
+ Short Description ZH: 在maniskill中采用PPO算法进行策略训练并部署至lerobot soarm101  
+ Tags: -  -  -   
+ Github Links: 
+ Demo:  
+ 
+ ### Project 2  
+ Title EN: 
+ Title ZH: 基于gello遥操框架采集FR3桌面清理数据并微调pi0.5模型 
+ Image Path: Short Description 
+ EN: Short Description 
+ ZH: 任务内容是清理桌面垃圾并进行简单收纳整理，项目基于gello框架能够更直接地采集数据，并对pi0.5模型进行微调  
+ Tags: -  -  -   
+ Github Links: 
+ Demo:  
+ 
+ ### Project 3  
+ Title EN: 
+ Title ZH: 基于isaaclab并行训练带针机械臂对齐穿刺任务（还在进行中） 
+ Image Path: 
+ Short Description EN: 
+ Short Description ZH: 任务内容是要求带针机械臂能以固定姿态到达动态目标点附近并进行实时tracking（目前只完成到达任务）  
+ Tags: -  -  -  
+  Github Links: 
+  Demo:  
+  
+  ### Project 4  
+  Title EN: 
+  Title ZH: 基于isaacsim训练data-driven的BC+DAGGER视觉驱动策略 
+  Image Path: 
+  Short Description EN: 
+  Short Description ZH: 主要集中于如何在仿真环境中生成高质量数据集（增加corner case，关键帧loss加权等）并训练模仿学习策略  
+  Tags: -  -  -   
+  Github Links: 
+  Demo:  
+  
+  ## 5. Internships  
+  ### Internship 1  Company: Vivo 
+  Company Logo Path: 
+  Role EN: 
+  Role ZH: 
+  Date EN: 
+  Date ZH: 2026.05 – 至今 
+  Location: 
+  Description EN: 
+  Description ZH:  
+
+
+ ## 6. My Life  
+ ### Life Item 1  Title EN: Title ZH: Date: Image Path: Description EN: Description ZH:  Tags: - Dance - Travel - Photography   ## 7. Website Style Preferences  Main Color: 蓝色和粉色 Background Style:纹理型 Font Style: 楷体 Card Style:  Example: - Main color: soft blue - Background: light gray paper texture - Font: rounded / handwritten feeling - Cards: cream background, rounded corners
