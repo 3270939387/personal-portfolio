@@ -1,5 +1,6 @@
 import { ExternalLink as LinkIcon, FileText, Github, Linkedin, Mail, Presentation, ScrollText } from "lucide-react";
 import type { ExternalLink, Language } from "../data/profile";
+import { assetUrl } from "../utils/assets";
 
 interface ExternalLinksProps {
   links: ExternalLink[];
@@ -26,7 +27,7 @@ export function ExternalLinks({ links, language }: ExternalLinksProps) {
           <a
             aria-disabled={disabled}
             className={disabled ? "external-link placeholder-link" : "external-link"}
-            href={disabled ? undefined : link.href}
+            href={disabled ? undefined : assetUrl(link.href)}
             key={`${link.kind}-${link.label.en}`}
             rel="noreferrer"
             target={link.kind === "email" ? undefined : "_blank"}

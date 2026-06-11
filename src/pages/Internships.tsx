@@ -2,6 +2,7 @@ import { PageHeader } from "../components/PageHeader";
 import { TagList } from "../components/TagList";
 import type { Language } from "../data/profile";
 import { profile } from "../data/profile";
+import { assetUrl } from "../utils/assets";
 
 interface InternshipsProps {
   language: Language;
@@ -16,7 +17,7 @@ export function Internships({ language }: InternshipsProps) {
           <article className="timeline-item" key={item.id}>
             <div className="timeline-dot" />
             <div className="timeline-card">
-              <img alt={item.company} className="company-logo" src={item.logo} />
+              <img alt={item.company} className="company-logo" src={assetUrl(item.logo)} />
               <div className="timeline-content">
                 <div className="timeline-heading">
                   <div>

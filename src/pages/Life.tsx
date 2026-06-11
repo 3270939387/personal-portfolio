@@ -2,6 +2,7 @@ import { PageHeader } from "../components/PageHeader";
 import { TagList } from "../components/TagList";
 import type { Language } from "../data/profile";
 import { profile } from "../data/profile";
+import { assetUrl } from "../utils/assets";
 
 interface LifeProps {
   language: Language;
@@ -34,7 +35,7 @@ export function Life({ language }: LifeProps) {
                         alt={image.alt[language]}
                         loading="lazy"
                         onError={(event) => event.currentTarget.parentElement?.remove()}
-                        src={image.src}
+                        src={assetUrl(image.src)}
                       />
                     </figure>
                   ))}
@@ -53,7 +54,7 @@ export function Life({ language }: LifeProps) {
                             alt={image.alt[language]}
                             loading="lazy"
                             onError={(event) => event.currentTarget.parentElement?.remove()}
-                            src={image.src}
+                            src={assetUrl(image.src)}
                           />
                         </figure>
                       ))}

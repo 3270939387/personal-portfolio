@@ -3,6 +3,7 @@ import { ExternalLinks } from "../components/ExternalLinks";
 import { TagList } from "../components/TagList";
 import type { Language } from "../data/profile";
 import { profile } from "../data/profile";
+import { assetUrl } from "../utils/assets";
 
 interface HomeProps {
   language: Language;
@@ -21,7 +22,7 @@ export function Home({ language }: HomeProps) {
           <p className="lead">{profile.person.introduction[language]}</p>
           <ExternalLinks language={language} links={profile.person.quickLinks} />
         </div>
-        <img alt={profile.person.displayName[language]} className="hero-image" src={profile.person.heroImage} />
+        <img alt={profile.person.displayName[language]} className="hero-image" src={assetUrl(profile.person.heroImage)} />
       </div>
 
       <div className="section-grid two-columns">

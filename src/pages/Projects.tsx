@@ -3,6 +3,7 @@ import { PageHeader } from "../components/PageHeader";
 import { TagList } from "../components/TagList";
 import type { Language } from "../data/profile";
 import { profile } from "../data/profile";
+import { assetUrl } from "../utils/assets";
 
 interface ProjectsProps {
   language: Language;
@@ -18,7 +19,7 @@ export function Projects({ language }: ProjectsProps) {
       <div className="project-grid">
         {profile.projects.map((project) => (
           <article className="project-card" key={project.id}>
-            <img alt={project.title[language]} src={project.image} />
+            <img alt={project.title[language]} src={assetUrl(project.image)} />
             <div className="card-body">
               <div className="card-title-row">
                 <h3>{project.title[language]}</h3>
