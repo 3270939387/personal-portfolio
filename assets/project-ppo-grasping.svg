@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 506" role="img" aria-label="PPO visual grasping placeholder">
+  <rect width="900" height="506" fill="#f3f0e8"/>
+  <rect x="64" y="342" width="772" height="72" rx="20" fill="#dbeeff"/>
+  <g fill="none" stroke="#2562a5" stroke-linecap="round" stroke-width="22">
+    <path d="M230 336V182"/>
+    <path d="M230 182l110-74"/>
+    <path d="M340 108l110 76"/>
+    <path d="M450 184l88 92"/>
+  </g>
+  <circle cx="230" cy="182" r="32" fill="#cf6f95"/>
+  <circle cx="340" cy="108" r="26" fill="#cf6f95"/>
+  <circle cx="450" cy="184" r="26" fill="#cf6f95"/>
+  <rect x="574" y="258" width="98" height="98" rx="18" fill="#173b63"/>
+  <path d="M676 292l72-30M678 332l72 30" stroke="#173b63" stroke-linecap="round" stroke-width="16"/>
+</svg>
