@@ -213,7 +213,7 @@ export const profile: Profile = {
         value: { en: "Shenzhen University, Robotics", zh: "深圳大学，机器人方向" },
       },
       {
-        label: { en: "Graduate 2025/08-2027/01", zh: "研究生      2025/08-2027/01" },
+        label: { en: "Graduate 2025/08-2027/07", zh: "研究生      2025/08-2027/07" },
         value: { en: "National University of Singapore, Robotics", zh: "新加坡国立大学，机器人方向" },
       },
       {
@@ -226,8 +226,8 @@ export const profile: Profile = {
       zh: "跳舞、唱歌、篮球、架子鼓、钢琴、吉他",
     },
     introduction: {
-      en: "Hi, I'm Friday, a robotics student interested in embodied AI, reinforcement learning, imitation learning, and robot manipulation. ",
-      zh: "你好，我是常潇尹，也可以叫我 Friday。我关注机器人、具身智能、强化学习、模仿学习和机械臂操作。",
+      en: "Hi, I'm Friday, a robotics student interested in embodied AI, including multimodality imitation learning and reinforcement learning for robot manipulation. ",
+      zh: "你好，我是常潇尹，也可以叫我 Friday。我关注具身智能，包括多模态模仿学习和强化学习在机械臂操作中的应用",
     },
     keywords: [
       { en: "Robotics", zh: "机器人" },
@@ -263,6 +263,24 @@ export const profile: Profile = {
   },
   projects: [
     {
+      id: "adaptive compliance policy",
+      title: {
+        en: "Adaptive Compliance Diffusion-Based Policy training and deployment for force-related tasks",
+        zh: "自适应柔顺扩散策略训练和部署，用于力相关任务",
+      },
+      image: "/assets/x2_opendoor.png",
+      description: {
+        en: "policy training with ACP strategy and successful deployment to complete force-related tasks such as opening doors and wiping vases. Multiple comparative experiments were conducted as follows: 1. Force modality ablation 2. Influence of wrist and global camera 3. Comparison of multimodal fusion methods (film vs. cross attention) 4. Variable stiffness admittance controller vs. position control",
+        zh: "基于ACP策略训练并成功部署，完成开门、擦花瓶等力相关任务。进行多组对比实验如下：1. 力模态消融 2. 腕部与全局相机影响 3. 多模态融合方法（film v.s. cross attn）对比 4. 可变刚度导纳控制器与位置控制",
+      },
+      tags: ["Adaptive Compliance", "Multimodal Diffusion Policy", "admittance control"],
+      status: "completed",
+      links: [
+        { kind: "github", label: { en: "GitHub", zh: "GitHub" }, href: "#", placeholder: true },
+        { kind: "demo", label: { en: "Demo", zh: "演示" }, href: "#", placeholder: true },
+      ],
+    },
+    {
       id: "ppo-visual-grasping",
       title: {
         en: "PPO-Based Visual Grasping Policy Training and Real-Robot Deployment",
@@ -270,8 +288,8 @@ export const profile: Profile = {
       },
       image: "/assets/lerobot_sim2real.png",
       description: {
-        en: "policy training with PPO in ManiSkill and deployment to LeRobot SO-ARM101.",
-        zh: "在maniskill中采用PPO算法进行策略训练并部署至lerobot soarm101。",
+        en: "Training a visual grasping policy using the PPO algorithm in ManiSkill, replacing real-world backgrounds with simulated camera renderings to reduce the visual gap, and finally combining domain randomization for deployment on the LeRobot Soarm101.",
+        zh: "在maniskill中采用PPO算法进行策略训练，将真实世界背景替换为仿真相机渲染结果以缩小visual gap，最后结合domain randomization并部署至lerobot soarm101",
       },
       tags: ["PPO", "ManiSkill", "LeRobot"],
       status: "completed",
@@ -292,27 +310,9 @@ export const profile: Profile = {
         zh: "任务内容是清理桌面垃圾并进行简单收纳整理，项目基于gello框架能够更直接地采集数据，并对pi0.5模型进行微调。",
       },
       tags: ["GELLO", "FR3", "pi0.5", "Teleoperation"],
-      status: "ongoing",
+      status: "completed",
       links: [
         { kind: "github", label: { en: "GitHub", zh: "GitHub" }, href: "#", placeholder: true },
-        { kind: "demo", label: { en: "Demo", zh: "演示" }, href: "#", placeholder: true },
-      ],
-    },
-    {
-      id: "isaaclab-needle-alignment",
-      title: {
-        en: "Parallel Training for Needle-Arm Alignment and Puncture Tasks in Isaac Lab",
-        zh: "基于isaaclab并行训练带针机械臂对齐穿刺任务（还在进行中）",
-      },
-      image: "/assets/isaaclab.png",
-      description: {
-        en: "training a needle-mounted robot arm to reach dynamic target points with a fixed pose and perform real-time tracking; currently the reaching task is complete.",
-        zh: "任务内容是要求带针机械臂能以固定姿态到达动态目标点附近并进行实时tracking（目前只完成到达任务）。",
-      },
-      tags: ["Isaac Lab",  "Tracking", "Simulation"],
-      status: "ongoing",
-      links: [
-        { kind: "github", label: { en: "GitHub", zh: "GitHub" }, href: "https://github.com/3270939387/ME5400_RL_RIGHT", placeholder: false },
         { kind: "demo", label: { en: "Demo", zh: "演示" }, href: "#", placeholder: true },
       ],
     },
@@ -325,12 +325,30 @@ export const profile: Profile = {
       image: "/assets/isaacsim.png",
       description: {
         en: "generating high-quality simulation datasets with corner cases and key-frame loss weighting, then training imitation learning policies.",
-        zh: "主要集中于如何在仿真环境中生成高质量数据集（增加corner case，关键帧loss加权等）并训练模仿学习策略。",
+        zh: "主要集中于如何在仿真环境中生成高质量数据集（数据基本质量：以episode长度、图片像素、δa等为评判标准去除低质量数据；数据多样性：增加corner case，融合DAGGER迭代得到的纠错数据等)",
       },
-      tags: ["Isaac Sim","Data-Driven", "BC+DAGGER", "Imitation Learning"],
-      status: "research",
+      tags: ["Isaac Sim","Data-Driven", "BC+DAGGER"],
+      status: "completed",
       links: [
         { kind: "github", label: { en: "GitHub", zh: "GitHub" }, href: "https://github.com/3270939387/ME5400_IL_LEFT", placeholder: false },
+        { kind: "demo", label: { en: "Demo", zh: "演示" }, href: "#", placeholder: true },
+      ],
+    },
+    {
+      id: "isaaclab-needle-alignment",
+      title: {
+        en: "Parallel Training for Needle-Arm Alignment and Puncture Tasks in Isaac Lab",
+        zh: "基于isaaclab训练带针机械臂在干扰环境下的针穿刺任务（还在进行中）",
+      },
+      image: "/assets/isaaclab.png",
+      description: {
+        en: "task content is to align a needle-arm robot with a dynamic target point and puncture a needle in a noisy environment",
+        zh: "任务内容是要求带针机械臂能在干扰环境下如摩擦等外界阻力下成功到达动态目标点并完成针穿刺任务",
+      },
+      tags: ["Isaac Lab", "Simulation", "reinforcement learning"],
+      status: "ongoing",
+      links: [
+        { kind: "github", label: { en: "GitHub", zh: "GitHub" }, href: "https://github.com/3270939387/ME5400_RL_RIGHT", placeholder: false },
         { kind: "demo", label: { en: "Demo", zh: "演示" }, href: "#", placeholder: true },
       ],
     },
